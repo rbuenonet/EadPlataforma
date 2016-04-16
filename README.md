@@ -15,6 +15,7 @@ Requisitos técnicos:
 
 ### Instalação ###
 * Rode o arquivo ead.sql para gerar o banco de dados
+* Configure o hosts, exemplo: 127.0.0.1 ead.dev
 * Configure o vhost do apache para apontar para a pasta **public** do projeto.
 
 ```html
