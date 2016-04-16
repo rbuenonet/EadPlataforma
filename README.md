@@ -83,14 +83,14 @@ Configure o vhost do apache para apontar para a pasta **public** do projeto.
 
 
 ### Arquitetura ###
-    * **./api:** Pasta onde será armazenado as bibliotecas criadas pelo programador ou de terceiros. Ex: Biblioteca de controle do banco de dados
-    * **./controller:** Pasta onde será armazenados todos os controllers responsáveis pelas regras de negocio do projeto. Ex: clienteController.php - Realiza o controle de todas as regras referente ao módulo cliente
-    * **./model:** Pasta onde conterá todos os setters e getters e a pasta Dao
-    * **./model/dao:** Pasta onde terá todos os arquivos responsável pela comunicação com o banco de dados. Ex: clienteDao.php - Arquivo responsavel por possuir todos os métodos de manutenção e consulta da tabela/módulo cliente
-    * **./public:** Pasta onde terá todos os arquivos responsável pela view
-    * **./public/front:** Pasta onde armazenará todos os códigos do front-end, ou seja, todos os arquivos css, js, font e imagens
-    * **./public/view:** Pasta onde terá todos os arquivos templates que serão mostrados para o usuário
-    * **./public/ws:** Pasta onde terá os arquivos de controle do Web Service, Ex: cliente.php - Arquivo chamado pelo navegador: [DOMINIO]/ws/cliente.php?acao=[AÇÃO DESEJADA]
+* **./api:** Pasta onde será armazenado as bibliotecas criadas pelo programador ou de terceiros. Ex: Biblioteca de controle do banco de dados
+* **./controller:** Pasta onde será armazenados todos os controllers responsáveis pelas regras de negocio do projeto. Ex: clienteController.php - Realiza o controle de todas as regras referente ao módulo cliente
+* **./model:** Pasta onde conterá todos os setters e getters e a pasta Dao
+* **./model/dao:** Pasta onde terá todos os arquivos responsável pela comunicação com o banco de dados. Ex: clienteDao.php - Arquivo responsavel por possuir todos os métodos de manutenção e consulta da tabela/módulo cliente
+* **./public:** Pasta onde terá todos os arquivos responsável pela view
+* **./public/front:** Pasta onde armazenará todos os códigos do front-end, ou seja, todos os arquivos css, js, font e imagens
+* **./public/view:** Pasta onde terá todos os arquivos templates que serão mostrados para o usuário
+* **./public/ws:** Pasta onde terá os arquivos de controle do Web Service, Ex: cliente.php - Arquivo chamado pelo navegador: [DOMINIO]/ws/cliente.php?acao=[AÇÃO DESEJADA]
 
 
     
