@@ -1,0 +1,23 @@
+.centro {
+    text-align:center;
+}
+
+.logo_topo{
+	max-height: 35px;
+}
+
+.topo-painel > h4{
+	float: left;
+}
+
+.alinhar-direita{
+	float: right;
+}
+
+.limpar{
+	clear: both;
+}
+
+.input-margin{
+    margin-left: 10px;
+}
