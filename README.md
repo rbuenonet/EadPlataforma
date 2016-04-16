@@ -14,8 +14,8 @@ Requisitos técnicos:
 -Frontend pode ser feito da forma que quiser (não se preocupe com layout), apenas aplique CSS básico para alinhar os elementos
 
 ### Instalação ###
-
-Configure o vhost do apache para apontar para a pasta **public** do projeto.
+* Rode o arquivo ead.sql para gerar o banco de dados
+* Configure o vhost do apache para apontar para a pasta **public** do projeto.
 
 ```html
 <VirtualHost *:80>
