@@ -16,6 +16,12 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Create database `ead`
+--
+
+CREATE DATABASE `ead` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin ;
+
+--
 -- Table structure for table `cliente`
 --
 
